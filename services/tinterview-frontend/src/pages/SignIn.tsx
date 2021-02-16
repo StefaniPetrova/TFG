@@ -112,6 +112,7 @@ const SignInPage = () => {
         >
           Sign in
         </button>
+        {console.log()}
         <GoogleLogin
           clientId={process.env.REACT_APP_CLIENT_ID || ""}
           buttonText="Login"
