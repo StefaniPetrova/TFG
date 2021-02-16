@@ -1,10 +1,10 @@
-import { GraphQLServer } from 'graphql-yoga';
-import { google } from 'googleapis';
-const { credentials } = require('node-credentials');
-import * as jwt from 'jsonwebtoken';
-const passport = require('passport');
-import { Strategy as GoogleStrategy } from 'passport-google-oauth20';
-import { UserModel } from '../models/user';
+import { GraphQLServer } from "graphql-yoga";
+import { google } from "googleapis";
+import { credentials } from "node-credentials";
+import * as jwt from "jsonwebtoken";
+import passport from "passport";
+import { Strategy as GoogleStrategy } from "passport-google-oauth20";
+import { UserModel } from "../models/user";
 
 
 export const JWT = {
